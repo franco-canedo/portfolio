@@ -5,43 +5,37 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out my Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/eclat.png'
+              text='Freelance prodcut for a homebuilder client where he can showcase his projects'
+              label='React.js | Ruby on Rails'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/colorSpeed.png'
+              text='A game where players speed and ability to think quick will be tested'
+              label='React.js'
+              path='/services'
+            />
+            <CardItem
+              src='images/trivia.png'
+              text='A timed Trivia quiz. Test your knowledge! Questions pulled from opentdb.com API'
+              label='React.js'
               path='/services'
             />
           </ul>
-          <ul className='cards__items'>
+          {/* <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/trivia.png'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'
             />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

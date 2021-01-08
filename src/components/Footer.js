@@ -8,55 +8,40 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          CONTACT
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Send me an Email
         </p>
         <div className='input-areas'>
           <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>EMAIL</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>Technical Skills</h2>
+            <Link to='/'>JavaScript</Link>
+            <Link to='/'>React.JS</Link>
+            <Link to='/'>Ruby</Link>
+            <Link to='/'>Ruby on Rails</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <a target="_blank" href="https://www.linkedin.com/in/franco-canedo/">LinkedIn</a>
+            <a target="_blank" href="https://github.com/franco-canedo">Github</a>
+            <a target="_blank" href="https://medium.com/@francocanedo">Medium</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCw9nQo4vYAaTQzrPYwb3Mjw">Youtube</a>
           </div>
         </div>
       </div>
@@ -64,52 +49,45 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              FRANCO CANEDO
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'> 2021</small>
           <div class='social-icons'>
-            <Link
+          <a target="_blank" 
+          class='social-icon-link facebook'
+          aria-label='LinkedIn'
+          href="https://www.linkedin.com/in/franco-canedo/">
+            <i class='fab fa-linkedin' />
+            </a>
+            <a target="_blank" 
+          class='social-icon-link facebook'
+          aria-label='Github'
+          href="https://github.com/franco-canedo">
+            <i class='fab fa-github' />
+            </a>
+            <a target="_blank" 
+          class='social-icon-link facebook'
+          aria-label='Medium'
+          href="https://medium.com/@francocanedo">
+            <i class='fab fa-medium' />
+            </a>
+            <a target="_blank" 
+          class='social-icon-link facebook'
+          aria-label='Youtube'
+          href="https://www.youtube.com/channel/UCw9nQo4vYAaTQzrPYwb3Mjw">
+            <i class='fab fa-youtube' />
+            </a>
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
+            
           </div>
         </div>
       </section>
