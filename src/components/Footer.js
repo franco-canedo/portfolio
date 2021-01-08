@@ -14,9 +14,11 @@ function Footer() {
           Send me an Email
         </p>
         <div className='input-areas'>
-          <form>
-            <Button buttonStyle='btn--outline'>EMAIL</Button>
-          </form>
+          
+            <Button buttonStyle='btn--outline'>
+            <a href="mailto:canedoflores.franco@gmail.com?subject=Subject&body=Body">EMAIL</a>
+              </Button>
+         
         </div>
       </section>
       <div class='footer-links'>
@@ -49,8 +51,8 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              FRANCO CANEDO
-              <i class='fab fa-typo3' />
+              FRANCO CANEDO 
+              <i class='fab fa-font-awesome' />
             </Link>
           </div>
           <small class='website-rights'> 2021</small>

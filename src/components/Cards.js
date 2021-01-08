@@ -4,7 +4,7 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div id="down" className='cards'><a href="down"></a>
       <h1>Check out my Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -13,19 +13,19 @@ function Cards() {
               src='images/eclat.png'
               text='Freelance prodcut for a homebuilder client where he can showcase his projects'
               label='React.js | Ruby on Rails'
-              path='/services'
+              path='http://www.homesbyeclat.com/'
             />
             <CardItem
               src='images/colorSpeed.png'
               text='A game where players speed and ability to think quick will be tested'
               label='React.js'
-              path='/services'
+              path='https://color-speed.herokuapp.com/'
             />
             <CardItem
               src='images/trivia.png'
               text='A timed Trivia quiz. Test your knowledge! Questions pulled from opentdb.com API'
               label='React.js'
-              path='/services'
+              path='https://t-quiz.herokuapp.com/'
             />
           </ul>
           {/* <ul className='cards__items'>

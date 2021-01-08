@@ -30,9 +30,21 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             
-            <i class='fab fa-typo3' />
+            <i class='fab fa-font-awesome' />
           </Link>
-          <ul>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              Austin, TX |
+             
+            </li>
+            <li className='nav-item'>
+              512-796-1261 |
+            </li>
+            <li className='nav-item'>
+             canedoflores.franco@gmail.com
+            </li>
+
+            
           </ul>
         
         </div>

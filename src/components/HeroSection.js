@@ -6,7 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
+      <img src="/images/img-home.jpg"></img>
       <h1>FRANCO CANEDO</h1>
       <p>Full Stack Software Developer</p>
       <div className='hero-btns'>
@@ -14,9 +15,12 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick="document.getElementById('middle').scrollIntoView();"
         >
-          MORE
+         
+          <a href="#down">MORE</a>
         </Button>
+       
       </div>
     </div>
   );
