@@ -6,7 +6,7 @@ function CardItem(props) {
     <>
       <li className='cards__item'>
         {/* <Link className='cards__item__link' to={props.path}> */}
-        <a href={props.path}>
+        <a  target="_blank" href={props.path}>
         <div className='cards__item__link'>
          
           <figure className='cards__item__pic-wrap' data-category={props.label}>
