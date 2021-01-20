@@ -10,32 +10,31 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/eclat.png'
+              src='images/EclatHomes gif.gif'
               text='Freelance prodcut for a homebuilder client where he can showcase his projects'
               label='React.js | Ruby on Rails'
               path='http://www.homesbyeclat.com/'
             />
             <CardItem
-              src='images/colorSpeed.png'
+              src='images/ColorSpeed gif.gif'
               text='A game where players speed and ability to think quick will be tested'
               label='React.js'
               path='https://color-speed.herokuapp.com/'
             />
             <CardItem
-              src='images/trivia.png'
+              src='images/T quiz gif.gif'
               text='A timed Trivia quiz. Test your knowledge! Questions pulled from opentdb.com API'
               label='React.js'
               path='https://t-quiz.herokuapp.com/'
             />
-          </ul>
-          {/* <ul className='cards__items'>
             <CardItem
-              src='images/trivia.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/YouFavs gif.gif'
+              text='Sort your favorite YouTube videos in a more personalized manner! 
+              Utilizes YouTube API and Google OAuth'
+              label='React.js | Ruby on Rails'
+              path='https://t-quiz.herokuapp.com/'
             />
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>
